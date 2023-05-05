@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 export default function StepTracker() {
   const [steps, setSteps] = useState(0);
   const increment = () => {
-    setSteps((previousstep) => previousstep + 1);
+    setSteps((prevState) => prevState + 1);
   };
 
   return (
